@@ -46,24 +46,18 @@ const WebauthnError = lazy(() => import("./pages/WebauthnError"));
 const SelectAuthenticator = lazy(() => import("./pages/SelectAuthenticator"));
 const Error = lazy(() => import("./pages/Error"));
 const Terms = lazy(() => import("./pages/Terms"));
-const OtpForm = lazy(
-    () => import("./pages/p2-inc/keycloak-magic-link/OtpForm")
-);
+const OtpForm = lazy(() => import("./pages/p2-inc/keycloak-magic-link/OtpForm"));
 const EmailConfirmation = lazy(
     () => import("./pages/p2-inc/keycloak-magic-link/EmailConfirmation")
 );
 const EmailConfirmationError = lazy(
     () => import("./pages/p2-inc/keycloak-magic-link/EmailConfirmationError")
 );
-const ViewEmail = lazy(
-    () => import("./pages/p2-inc/keycloak-magic-link/ViewEmail")
-);
+const ViewEmail = lazy(() => import("./pages/p2-inc/keycloak-magic-link/ViewEmail"));
 const ViewEmailContinuation = lazy(
     () => import("./pages/p2-inc/keycloak-magic-link/ViewEmailContinuation")
 );
-const Invitations = lazy(
-    () => import("./pages/p2-inc/keycloak-orgs/Invitations")
-);
+const Invitations = lazy(() => import("./pages/p2-inc/keycloak-orgs/Invitations"));
 
 export default function KcPage(props: { kcContext: KcContext }) {
     const { kcContext } = props;
