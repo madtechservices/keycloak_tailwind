@@ -29,6 +29,7 @@ export default defineConfig({
             kcContextExclusionsFtl: [
                 '<@addToXKeycloakifyMessagesIfMessageKey str="backgroundLogoUrl" />',
                 '<@addToXKeycloakifyMessagesIfMessageKey str="backgroundVideoUrl" />',
+                '<@addToXKeycloakifyMessagesIfMessageKey str="headerLogoUrl" />',
                 '<@addToXKeycloakifyMessagesIfMessageKey str="faviconUrl" />',
                 '<@addToXKeycloakifyMessagesIfMessageKey str="footerImprintUrl" />',
                 '<@addToXKeycloakifyMessagesIfMessageKey str="footerDataprotectionUrl" />',
