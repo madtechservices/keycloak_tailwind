@@ -43,6 +43,18 @@ export const WithInvalidCredential: Story = {
     )
 };
 
+export const WithHeaderLogo: Story = {
+    render: () => (
+        <KcPageStory
+            kcContext={{
+                properties: {
+                    TAILCLOAKIFY_HEADER_LOGO_URL: "https://www.almig.de/typo3conf/ext/almig_package/Resources/Public/Images/almig-logo.png"
+                }
+            }}
+        />
+    )
+};
+
 export const WithoutRegistration: Story = {
     render: () => (
         <KcPageStory
